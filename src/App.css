@@ -1,0 +1,165 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.Barra{
+  position: absolute;
+  width: 1512px;
+  height: 85px;
+  left: 0px;
+  top: 0px;
+  background: #222831;
+}
+.btn-Ingresa{
+  position: absolute;
+  width: 222px;
+  height: 54px;
+  left: 986px;
+  top: 17px;
+
+  background: #F1F1F1;
+  border-radius: 15px;
+
+
+}
+.btn-Registro{
+  position: absolute;
+  width: 222px;
+  height: 54px;
+  left: 1260px;
+  top: 17px;
+
+  background: #F1F1F1;
+  border-radius: 15px;
+}
+.imagen-Home{
+  position: absolute;
+  width: 626px;
+  height: 657px;
+  left: 443px;
+  top: 162px;
+
+  background: url(image.png);
+}
+
+.p-footer{
+  position: absolute;
+  width: 272px;
+  height: 97px;
+  left: 0px;
+  top: 879px;
+
+  font-family: 'IM FELL DW Pica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+
+}
+.img-correo{
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 1204px;
+  top: 916px;
+}
+.img-face{
+  position: absolute;
+  left: 84.85%;
+  right: 11.64%;
+  top: 93.28%;
+  bottom: 1.32%;
+  height: 53px;
+  width: 53px;
+  left: 1283px;
+  top: 916px;
+  border-radius: 0px;
+
+  
+}
+.img-insta{
+  position: absolute;
+  left: 91.3%;
+  right: 7.48%;
+  top: 95.56%;
+  bottom: 2.97%;
+  height: 43.59183120727539px;
+  width: 55.52466583251953px;
+  left: 1361.902099609375px;
+  top: 923.865478515625px;
+  border-radius: 0px;
+}
+.img-whats{
+  position: absolute;
+  left: 95.7%;
+  right: 0.97%;
+  top: 94.28%;
+  bottom: 1.96%;
+  height: 36.98688888549805px;
+  width: 50.33385467529297px;
+  left: 1447.036376953125px;
+  top: 925.786376953125px;
+  border-radius: 0px;
+
+  
+   
+}
+.login-p{
+  position: absolute;
+  width: 126px;
+  height: 36px;
+  left: 693px;
+  top: 24px;
+
+  font-family: 'IM FELL DW Pica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #F0F0F0;
+
+}
