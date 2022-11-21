@@ -2,9 +2,11 @@ import React from 'react'
 
 export default function Envios() {
   return (
-        <>
-                <p className="envios-p">Instaya</p>
-                <form action="">
+        <>  
+           <div className="">
+                <p className="login-p">Instaya  </p>
+            </div>
+            <form action="">
                 <p>
                     <label htmlFor="">Fecha</label>
                 <input type="date" /> 
@@ -25,7 +27,7 @@ export default function Envios() {
                 </p>
                 <p>
                     <label htmlFor="">Cédula : </label>
-                    <input type="text" />
+                    <input type="number" />
                 </p>
                 <p>
                     <label htmlFor="">Dirección entrega: </label>
@@ -35,8 +37,8 @@ export default function Envios() {
                     <label htmlFor="">Ciudad Entrega:</label>
                     <input type="text" />
                 </p>    
-                 <button>Crear</button>
-                </form>
+                <button type='button'>Crear</button>
+            </form>
         </>
   )
 }

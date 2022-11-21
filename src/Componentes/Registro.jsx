@@ -5,23 +5,25 @@ export default function Registro(){
             <div className="">
                 <p className="login-p">Instaya  </p>
             </div>
+            <form className ="formR" action="">
                 <p>
                     <label htmlFor="">Nombre: </label>
-                    <input type="text" />
+                    <input className="input1" type="text" />
                 </p>
                 <p>
                     <label htmlFor="">Usuario:</label>
-                    <input type="text" />
+                    <input className="input1" type="text" />
                 </p>
                 <p>
                     <label htmlFor="">Contraseña:</label>
-                    <input type="text" />
+                    <input className="input1" type="password" />
                 </p>
                 <p>
                     <label htmlFor="">Correo: </label>
-                    <input type="text" />
+                    <input  className="input1" type="text" />
                 </p>
-                <button>Crear</button>
+            </form>
+                <button type='button' >Crear</button>
             <footer>
                 <p className="p-footer">Instaya
                 Comunicate con nosototros</p>

@@ -11,19 +11,19 @@ export default function Login(){
             <div className="">
                 <p className="login-p">Instaya</p>
             </div>
-            <form >
+            <form className="form">
                 <p>
-                    <label htmlFor=""> Usuario: </label>
-                    <input type="text" />
+                     <label htmlFor=""> Usuario: </label> 
+                    <input className="input" type="text" placeholder="Usuario" />
                 </p>
                 <p>
-                    <label htmlFor="">Contraseña: </label>
-                    <input type="text" />
+                     <label htmlFor="">Contraseña: </label> 
+                    <input className="input" type="password" placeholder="Contraseña" />
                 </p>
                 <p>
                  <Link href="">Olvidó la Contraseña</Link>
                  </p>
-                <button onClick={()=>handleOnClick2()}>Ingresar</button>
+                <button className="btn" onClick={()=>handleOnClick2()}>Ingresar</button>
             </form>
             <footer>
                 <p className="p-footer">Instaya

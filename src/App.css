@@ -145,21 +145,4 @@
   
    
 }
-.login-p{
-  position: absolute;
-  width: 126px;
-  height: 36px;
-  left: 693px;
-  top: 24px;
 
-  font-family: 'IM FELL DW Pica SC';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
-  display: flex;
-  align-items: flex-end;
-
-  color: #F0F0F0;
-
-}
