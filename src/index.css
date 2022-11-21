@@ -38,6 +38,7 @@ h1 {
 }
 
 button {
+  position: sticky;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -67,4 +68,68 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.form{
+  width:370px;
+  height: 106px;
+  background-color: rgb(34, 40,49);
+  border-radius: 20px;
+
+}
+
+.input{
+  background-color:white ;
+  color: black;
+  border-radius: 25px;
+  gap: 10px;
+  position: center; 
+}
+.btn{
+  border-radius: 15px;
+  background-color: rgb(34, 40,49);
+  position: sticky;
+}
+.login-p{
+  position: absolute;
+  width: 126px;
+  height: 36px;
+  left: 693px;
+  top: 0px;
+
+  font-family: 'IM FELL DW Pica SC';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #F0F0F0;
+
+}
+
+.formR{
+ position: inherit;
+  background-color: white;
+  color:black ;
+}
+.input1{
+  background-color:rgb(217,217,217) ;
+  color: black;
+  border-radius: 30px;
+
+}
+.btnE{
+  background: #F1F1F1;
+  border-radius: 15px;
+  color: black;
+  width: 120px;
+  height: 54px;
+  left: 386px;
+  top: 17px;
+}
+.Envio{
+  background-color: white;
+  color: #1a1a1a;
 }

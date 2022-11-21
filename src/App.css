@@ -41,7 +41,7 @@
 }
 .Barra{
   position: absolute;
-  width: 1512px;
+  width: 1712px;
   height: 85px;
   left: 0px;
   top: 0px;
@@ -53,11 +53,19 @@
   height: 54px;
   left: 986px;
   top: 17px;
-
+  color: #000000;
   background: #F1F1F1;
   border-radius: 15px;
-
-
+}
+.btn-salir{
+  position: absolute;
+  width: 222px;
+  height: 54px;
+  left: 986px;
+  top: 17px;
+  color: #000000;
+  background: #F1F1F1;
+  border-radius: 15px;
 }
 .btn-Registro{
   position: absolute;
@@ -65,7 +73,7 @@
   height: 54px;
   left: 1260px;
   top: 17px;
-
+  color: black;
   background: #F1F1F1;
   border-radius: 15px;
 }
@@ -145,21 +153,4 @@
   
    
 }
-.login-p{
-  position: absolute;
-  width: 126px;
-  height: 36px;
-  left: 693px;
-  top: 24px;
 
-  font-family: 'IM FELL DW Pica SC';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
-  display: flex;
-  align-items: flex-end;
-
-  color: #F0F0F0;
-
-}

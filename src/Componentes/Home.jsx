@@ -24,7 +24,7 @@ export default function Home(){
             </div>
             <footer>
                 <p className="p-footer">Instaya
-                Comunicate con nosototros</p>
+                Comunicate con nosotros</p>
                 <img className="img-correo" src={`../src/img/Mail.png`} alt="" />
                 <img className="img-face" src={`../src/img/Facebook.png`} alt="" />
                 <img className="img-insta" src={`../src/img/Insta.png`} alt="" />
