@@ -1,21 +1,23 @@
-import { useNavigate } from "react-router-dom"
+import { Navigate, useNavigate } from "react-router-dom"
+
 
 export default function Home(){
     
-    const navigate = useNavigate();
-
-    function handkeClick(){
-        <Route path='/Login' element={<Login/>}/>
-        navigate(<Route path='/Login' element={<Login/>}/>)
-    }
-       
+    const Navigate = useNavigate();
+    
+    const handleOnClick =()=>{
+        Navigate("/Login")
+        }
+    const handleOnClick1 =()=>{
+        Navigate("/Registro")
+        }   
     
     return(
         
         <>
             <div className="Barra">
-                <button className="btn-Ingresa" type="button" onClick={(e)=>handkeClick()}>Ingresa</button>
-                <button className="btn-Registro">Registro</button>
+                <button className="btn-Ingresa" type="button" onClick={()=>handleOnClick()}>Ingresa</button>
+                <button className="btn-Registro"type="button" onClick={()=>handleOnClick1()} >Registro</button>
             </div>
             <div>
                 <img src={`../src/img/Logo.png`}/>
