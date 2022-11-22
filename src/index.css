@@ -88,7 +88,9 @@ button:focus-visible {
 .btn{
   border-radius: 15px;
   background-color: rgb(34, 40,49);
+
   position: sticky;
+
 }
 .login-p{
   position: absolute;
@@ -96,7 +98,6 @@ button:focus-visible {
   height: 36px;
   left: 693px;
   top: 0px;
-
   font-family: 'IM FELL DW Pica SC';
   font-style: normal;
   font-weight: 400;
@@ -118,7 +119,6 @@ button:focus-visible {
   background-color:rgb(217,217,217) ;
   color: black;
   border-radius: 30px;
-
 }
 .btnE{
   background: #F1F1F1;
@@ -132,4 +132,5 @@ button:focus-visible {
 .Envio{
   background-color: white;
   color: #1a1a1a;
+
 }

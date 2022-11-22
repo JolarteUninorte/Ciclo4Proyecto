@@ -25,6 +25,7 @@ export default function Login(){
                  <Link href="">Olvidó la Contraseña</Link>
                  </p>
                 <button   className="btn" onClick={()=>handleOnClick2()}>Ingresar</button>
+
             </form>
             <footer>
                 <p className="p-footer">Instaya
