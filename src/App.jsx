@@ -7,11 +7,13 @@ import Login from './Componentes/Login'
 import Envios from './Componentes/Envios'
 import Registro from './Componentes/Registro'
 import Estado from './Componentes/Estado'
+import DatosE from './Componentes/DatosE'
 
 function App() {
   
   return (
     <>
+    
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
@@ -19,6 +21,7 @@ function App() {
           <Route path='/Registro' element={<Registro/>}/>
           <Route path='/Envios' element={<Envios/>}/>
           <Route path='/Estado' element={<Estado/>}/>
+          <Route path='/DatosE' element={<DatosE/>}/>
         </Routes>
       </BrowserRouter>    
     </>
