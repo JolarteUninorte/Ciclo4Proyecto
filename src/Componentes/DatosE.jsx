@@ -1,12 +1,20 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 export default function DatosE() {
+    const Navigate = useNavigate();
+    const handleOnClick =()=>{
+        Navigate("/estado")
+        }
+    const handleOnClick1 =()=>{
+            Navigate("/")
+            }
     return (
         <>
             <div className="Barra">
                 <p className="login-p">Instaya  </p>
-                <button className="btn-salir" >Salir</button>
-                <button className="btn-volver">Volver</button>
+                <button className="btn-salir" onClick={()=>handleOnClick1()}>Salir</button>
+                <button className="btn-volver" onClick={()=>handleOnClick()}>Volver</button>
             </div>
             <div className="card border-primary mb-3" >
                 <table class="table table-bordered table-dark">

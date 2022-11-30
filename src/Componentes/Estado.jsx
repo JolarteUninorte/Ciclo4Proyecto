@@ -4,18 +4,26 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 
 export default function Estado() {
+    const Navigate = useNavigate();
+    
     const handleOnClick3 =() =>{
         Navigate("/Envios")
     } 
+    const handleOnClick4 =()=>{
+        Navigate("/")
+        }
+    const handleOnClick5 =()=>{
+            Navigate("/DatosE")
+            }
   return (
        <>
             <div>
                 <div className="Barra">
                         <p className="login-p">Instaya  </p>
-                        <button className="btn-salir" >Salir</button>
+                        <button onClick={()=>handleOnClick4()} className="btn-salir" >Salir</button>
                 </div>
             </div>
-            <button className="btnE"> Ver Envío</button>
+            <button className="btnE" onClick={()=>handleOnClick5()} > Ver Envío</button>
             <button className="btnE" type='button' onClick={()=>handleOnClick3()}> Crear Envío</button>
             <div>
                 <img src={`../src/img/Logo.png`}/>
