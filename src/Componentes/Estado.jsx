@@ -7,14 +7,14 @@ export default function Estado() {
     const Navigate = useNavigate();
     
     const handleOnClick3 =() =>{
-        Navigate("/Envios")
+        Navigate("/user/Envios")
     } 
     const handleOnClick4 =()=>{
         Navigate("/")
         }
     const handleOnClick5 =()=>{
-            Navigate("/DatosE")
-            }
+            Navigate("/user/DatosE")
+            } 
   return (
        <>
             <div>

@@ -17,11 +17,12 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/Login' element={<Login/>}/>
-          <Route path='/Registro' element={<Registro/>}/>
-          <Route path='/Envios' element={<Envios/>}/>
-          <Route path='/Estado' element={<Estado/>}/>
-          <Route path='/DatosE' element={<DatosE/>}/>
+          <Route path='/login' element={<Login/>}/>
+          <Route path='/user/registro' element={<Registro/>}/>
+          <Route path='/user/envios' element={<Envios/>}/>
+          <Route path='/user/Estado' element={<Estado/>}/>
+          <Route path='/user/DatosE' element={<DatosE/>}/>
+          <Route path='/*' element={<h1> Página no encontrada</h1>}/>
         </Routes>
       </BrowserRouter>    
     </>

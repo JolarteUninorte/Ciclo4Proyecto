@@ -12,7 +12,7 @@ export default function Registro(){
         const nombre = nomRef.current.value;
         const usuario = usuRef.current.value;
         const password = passRef.current.value;
-        const correo =emailRef.current.value; 
+        const correo = emailRef.current.value; 
 
         fetch("http://localhost:8000/user/save", {
             headers: {
@@ -61,7 +61,7 @@ export default function Registro(){
                     <label htmlFor="">Correo: </label>
                     <input ref={emailRef}  className="input1" type="text" />
                 </p>
-                <button className="btn" type='button'onClick={guardar} >Crear</button>
+                <button className="btn" type='button' onClick={guardar} >Crear</button>
             </form>
             <footer>
                 <p className="p-footer">Instaya

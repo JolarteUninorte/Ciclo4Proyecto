@@ -11,18 +11,21 @@ export default function Login(){
     function login() {
         const Navigate = useNavigate();
         const handleOnClick3 =()=>{
-        Navigate("/Estado")
+        Navigate("/user/estado")
         }
-        const usu = usuarioRef.current.value;
-        const pass = passwordRef.current.value;
+        const usuario = usuarioRef.current.value;
+        const password = passwordRef.current.value;
+        console.log("mensaje prueba")
         fetch("http://localhost:8000/login", {
             headers: { "content-type": "application/json" },
             method: "POST",
-            body: JSON.stringify({ usu, pass })
+            body: JSON.stringify({ usuario, password })
+            
         }).then(res => res.json())
             .then(res => {
                 if (res.estado === "ok") {
-                    window.location.href = res.url;
+                    this.props.history.push('/user/estado');
+                    //window.location.href = res.url;
                     handleOnClick3();
                 } else {
                     alert("Error: Usuario/Password incorrectos")
@@ -41,11 +44,11 @@ export default function Login(){
                     <input ref ={usuarioRef} className="input" type="text" placeholder="Usuario" />
                 </p>
                 <p>
-                     <label >Contraseña: </label> 
-                    <input ref ={passwordRef} className="input" type="password" placeholder="Contraseña" />
+                    <label >Contraseña: </label> 
+                    <input ref ={passwordRef} className="input" type="password" placeholder="Contraseña"  />
                 </p>
                 <p>
-                 <Link href="">Olvidó la Contraseña</Link>
+                 <Link to={"/user/registro"}>Olvidó la Contraseña</Link>
                  </p>
                 <button   className="button" onClick={login}>Ingresar</button>
             </form>

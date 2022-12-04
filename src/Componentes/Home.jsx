@@ -6,13 +6,13 @@ export default function Home(){
     const Navigate = useNavigate();
     
     const handleOnClick =()=>{
-        Navigate("/Login")
+        Navigate("/login")
         }
     const handleOnClick1 =()=>{
-        Navigate("/Registro")
+        Navigate("/user/registro")
         }   
     
-    return(
+    return( 
         
         <>
             <div className="Barra">
