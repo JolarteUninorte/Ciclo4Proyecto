@@ -55,7 +55,7 @@ export default function Envios() {
             <div className="Barra">
                 <p className="login-p">Instaya  </p>
             </div>
-            <form action="">
+            <form className='formR'>
                 {exito && <div className="alert alert-primary" role="alert"> Envio guardado</div>}
                 <p>
                     <label >Fecha</label>

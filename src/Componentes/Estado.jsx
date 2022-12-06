@@ -24,7 +24,7 @@ export default function Estado() {
                 </div>
             </div>
             <button className="btnE" onClick={()=>handleOnClick5()} > Ver Envío</button>
-            <button className="btnE" type='button' onClick={()=>handleOnClick3()}> Crear Envío</button>
+            <button className="btnEnv" type='button' onClick={()=>handleOnClick3()}> Crear Envío</button>
             <div>
                 <img src={`../src/img/Logo.png`}/>
             </div>    

@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ffffff;
   text-decoration: inherit;
 }
 a:hover {
@@ -45,7 +45,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: rgb(34, 40,49);
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -71,10 +71,12 @@ button:focus-visible {
 }
 
 .form{
-  width:370px;
-  height: 106px;
+  width:340px;
+  height: 112px;
   background-color: rgb(34, 40,49);
   border-radius: 20px;
+  margin-top: 15px;
+  padding: 15px;
 
 }
 
@@ -111,9 +113,13 @@ button:focus-visible {
 }
 
 .formR{
- position: inherit;
-  background-color: white;
+  
+  position: inherit;
+  background-color: rgb(244, 243, 243);
   color:black ;
+  margin: 25px;
+  padding: 25px;
+  padding-inline-end: 0%;
 }
 .input1{
   background-color:rgb(217,217,217) ;
@@ -121,13 +127,24 @@ button:focus-visible {
   border-radius: 30px;
 }
 .btnE{
+  position: absolute;
   background: #F1F1F1;
   border-radius: 15px;
   color: black;
   width: 120px;
   height: 54px;
-  left: 386px;
-  top: 17px;
+  left: 596px;
+  top: 110px;
+}
+.btnEnv{
+  position: absolute;
+  background: #F1F1F1;
+  border-radius: 15px;
+  color: black;
+  width: 120px;
+  height: 54px;
+  left: 876px;
+  top: 110px;
 }
 .Envio{
   background-color: white;

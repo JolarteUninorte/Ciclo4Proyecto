@@ -33,7 +33,7 @@ export default function DatosE() {
                 <button className="btn-volver" onClick={() => handleOnClick()}>Volver</button>
             </div>
             {/* <div className="card border-primary mb-3" > */}
-                <table className="table table-dark table-striped-columns"> 
+                <table className="formR"> 
                     <thead>
                         <tr>
                             <th scope="col">Guía</th>

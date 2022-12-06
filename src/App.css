@@ -88,11 +88,11 @@
   border-radius: 15px;
 }
 .btn-volver{
-  position: sticky;
+  position: absolute;
   width: 222px;
   height: 54px;
-  right:  1100px;
-  top: 17px;
+  right:  1300px;
+  top: 20px;
   color: #000000;
   background: #F1F1F1;
   border-radius: 15px;
@@ -143,8 +143,6 @@
   left: 1283px;
   top: 916px;
   border-radius: 0px;
-
-  
 }
 .img-insta{
   position: absolute;
@@ -169,8 +167,4 @@
   left: 1447.036376953125px;
   top: 925.786376953125px;
   border-radius: 0px;
-
-  
-   
 }
-
